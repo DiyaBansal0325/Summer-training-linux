@@ -1,0 +1,51 @@
+LINUX -> OS (software 
+->Free and open source = open for all changes
+->secure
+->CLI based OS = everything works on command -> RAM and resources are less consumed hence performance increases
+-> Used or needed for every field in IT
+
+WINDOWS -> Paid OS
+->It belongs to Microsoft
+
+LINUX-> AWS cloud-> AZURE Cloud
+
+In windows its C:/FOLDERNAME
+
+LINUX:
+/ => Root directory
+In Linux all folders are like /home 
+folder is called as directory 
+If have to delete folder and we are inside that folder thn we have to first come out of folder and than delete it.
+To delete non-empty folder we will use rm command as given below.
+rmdir is only used to delete empty folders.
+Use CTRL+L to clear screen.
+apt is a package manager which updates installs packages
+
+
+COMMANDS:
+1. pwd -> shows location
+2. ls -> shows current location's file
+3. mkdir FOLDERNAME -> create folder (can create many folders by giving spaces between foldername OR by giving command "mkdir FOLDERNAME{1..10}")
+4. rmdir FOLDERNAME -> delete folder(It can only delete empty folders)
+5. cd FOLDERNAME -> to go into a folder (cd means change directory)
+6. touch -> to create files [to create multiple files together "touch {1..5}.txt"
+7. rm -> to delete file [to delete folder with rm command we will write "rm -rvf FOLDERNAME"]
+8. cd .. -> to come out of a folder
+9. COMMAND --help -> to see all options with that one command
+10. sudo apt update -> updates packages
+11. sudo apt install PACKAGENAME -> installs packages (like Hollywood cmatrix)
+12. echo "VALUETOPRINT"-> to print value [to keep the value in any file we will write 'echo "ANY_VALUE" > FILE_NAME' => this replaces the older value in file and not to do so we will write ">>" instead of ">"]
+13. cat FILE_NAME -> shows the content in file
+14. history -> to see all the commands used previously and to use them again we can write "!NUMBER_FROM_HISTORY_OF_THAT_COMMAND"
+
+
+
+create a folder name as backup
+-inside the folder
+-create 7 folders and 5 files
+-delete any 3 files and 5 folders
+-check the remaining files
+-at last delete the backup folder
+
+Assignment for today: 
+date > backup.txt => in every 5 mins the o/p of date command should be tranferred / stored inside the file named backup.txt => use some kind of automation for this

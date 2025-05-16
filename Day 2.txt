@@ -1,0 +1,47 @@
+1. rm -r * -> to delete all files and folders
+2. ls -> shows current location's file 
+3. ls SOMELOCATION -> shows files of that location
+4. cp source destination -> copy file from one folder to other [copy paste] (EX. cp home/tushar/Ranvir/file /home/tushar/Deepika)
+5. cp -r Source_folder Destination_folder -> copy one folder to another
+6. cp file_name Destination_folder/New_file_name -> copy a file from 1st folder to another folder with new name
+7. mv source destination -> move file from one folder to other [cut paste] 
+8. mv OLD_FILENAME NEW_FILENAME -> renames the file's name
+9. cd - -> to switch between two location without giving full path
+10. vi filename -> opens an editor which let us write content in a file and to write content after writing this vi command press "i" on keyboard which allows us to insert data in file and now to save we will first press esc than write ":wq" and thn 'Enter'. This will now save the content in the file we named. Now to check it write "cat FILE_NAME".
+-> to copy any line press "esc" than "yy" for copy and thn "p" for paste.
+-> to cut any line press "esc" than "dd" for cut and thn "p" for paste.
+-> to come out of opened editor for file without saving changes we will write ":q!".
+
+NOTE: If we are in the source's location than there is no need to give full location in the command we can simply give file's name of source.
+
+IN WINDOWS:
+Zip files:
+-compression => file size reduce
+-sharing easy
+-collect  multiple files
+data => file format
+To download any open source file in windows they will get download in zip format
+
+IN LINUX:
+tar: tape achieve
+multiple files are collected together
+no compression by default
+sharing can be easy
+To download any open source file in linux they will get download in Tar format
+
+1. tar -cf Tar_File_name Files_to_copy_to_tar_folder => creates a tar folder [ -cf in this c means create and f means file format]
+2. tar -tf Tar_file_name => to check items in tar file or to list content of tar file [ -tf in this t means to list and f means file format]
+3. tar -xf Tar_file_name => to extract files from tar file [ -xf in this x means extract anf f is same] 
+
+
+Assignment:
+Q1. Create a folder Abhi and aman:
+- inside abhi create 3 files 
+- copy 1st file from abhi to aman
+- move 2md file from abhi to aman
+- copy abhi folder to aman folder
+- copy third file from abhi to aman but with new name [ data.txt (abhi) => newdata.txt (aman) ] {NOTE: only use cp command}
+- at last delete aman folder
+
+AWS account
+GitHub account

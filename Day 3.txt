@@ -1,0 +1,19 @@
+Compression in tar files
+Permissions
+
+
+1. truncate -s FILE_SIZE FILE_NAME => create a file of specified size
+2. ls -lh => Shows more detail of file 
+
+gzip algorithm => reduces file size => .gz is extension
+
+3. tar -czf _TAR_FILE_NAME => to compress tar file
+
+
+
+AWS : EC2 > Instances > Launch an instance -> name= mywensite -> ubuntu - t2.micro -> create new value pair (name- mykey) -> move in download folder -> click launch => now u can login and work.
+
+click instance id 
+tap connect
+
+search free css on google
